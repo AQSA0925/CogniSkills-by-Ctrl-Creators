@@ -1,0 +1,23 @@
+{
+  "project": "CogniSkills",
+  "methodology": "Modular Task Decomposition",
+  "planning_tool": "Kiro IDE",
+  "system_logic_nodes": [
+    {
+      "node": "Extraction",
+      "status": "Verified",
+      "tools": ["pdf-parse", "fs-system"]
+    },
+    {
+      "node": "Inference",
+      "status": "Optimized",
+      "engine": "Groq-Llama-3.1-8B-Instant",
+      "max_latency": "2.5s"
+    },
+    {
+      "node": "Roadmap_Gen",
+      "status": "Ready",
+      "output_format": "Actionable_72H_Sprint"
+    }
+  ]
+}
