@@ -64,7 +64,7 @@ const handleUpload = async () => {
     formData.append("role", jobTitle);
 
     // 3. Send the file to the endpoint you tested in Postman
-    const response = await axios.post("http://localhost:5000/resume/analyze", formData, {
+    const response = await axios.post("https://cogniskills-by-ctrl-creators.onrender.com/resume/analyze", formData, {
       headers: {
         "Content-Type": "multipart/form-data", // Tells the server a file is coming
       },
